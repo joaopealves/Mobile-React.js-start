@@ -26,7 +26,7 @@ export default class App extends Component {
   render() {
     const interpolateRotation = this.animatedValue.interpolate({
       inputRange: [0, 1],
-      outputRange: ['0rad', '720rad'],
+      outputRange: ['0rad', '500rad'],
     });
     const animatedStyle = {
       transform: [{ rotate: interpolateRotation }],
